@@ -193,6 +193,7 @@ def map_to_form8(user_json):
                     or exp.get("organization")
                     or "",
 
+
                 "previous_position_held":
                     exp.get("role")
                     or exp.get("position")
