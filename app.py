@@ -117,6 +117,6 @@ if file:
             st.download_button(
                 "Download Filled CV",
                 data=f.read(),
-                file_name="generated_cv.docx",
+                file_name="generated_cv_streamlit.docx",
                 mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
             )
