@@ -3,7 +3,9 @@ def map_to_form8(user_json):
 
     form8 = {}
 
-    
+    # PHOTO
+    form8["PHOTO"] = ""
+
     # BASIC DETAILS
 
 
