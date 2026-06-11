@@ -200,10 +200,9 @@ CV TEXT:
 
     ai_response = response.choices[0].message.content
 
-    print("\n========== AI RESPONSE START ==========")
-    print(repr(ai_response))
-    print("========== AI RESPONSE END ==========\n")
-
+    # print("\nAI response starts.")
+    # print(repr(ai_response))
+    # print("AI response ends here.\n")
 
     ai_response = (
         ai_response

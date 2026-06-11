@@ -1,17 +1,13 @@
 import streamlit as st
 from extractor import extract_pdf
 from ai_parser import parse_cv
+from test_full_template import create_cv
 
-from docxtpl import DocxTemplate
 import os
 import json
-import base64
 
 
 st.title("CV Parser")
-
-
-TEMPLATE_PATH = "CV_Form 8_Template.docx"
 
 
 file = st.file_uploader(
@@ -21,30 +17,17 @@ file = st.file_uploader(
 )
 
 
-def generate_docx(data):
-
-    doc = DocxTemplate(TEMPLATE_PATH)
-
-    doc.render(data)
-
-    os.makedirs("cv_json", exist_ok=True)
-
-    output_path = "cv_json/generated_cv.docx"
-
-    doc.save(output_path)
-
-    return output_path
-
-
 if file:
 
-    print("Extracting started...")
 
-    text = extract_pdf(file)
+    # Extract preview text
 
-    print("Extracted successfully!")
+    with st.spinner("Extracting CV..."):
 
-    st.subheader("Extracted text")
+        text = extract_pdf(file)
+
+
+    st.subheader("Extracted Text")
 
     st.text_area(
         "CV text",
@@ -55,13 +38,16 @@ if file:
 
     if st.button("Convert"):
 
-        print("Parsing JSON...")
 
-        data = parse_cv(text)
+        # AI JSON preview
 
-        print("Parsed successfully!")
+        with st.spinner("Parsing CV..."):
 
-        st.subheader("Extracted fields")
+            data = parse_cv(text)
+
+
+        st.subheader("Extracted Fields")
+
 
         edited = {}
 
@@ -69,82 +55,68 @@ if file:
 
             edited[key] = st.text_input(
                 key,
-                value
+                str(value)
             )
 
 
-        # SAVE JSON
+        # Save JSON
 
-        os.makedirs("cv_json", exist_ok=True)
+        os.makedirs(
+            "outputs",
+            exist_ok=True
+        )
 
-        json_path = "cv_json/result.json"
+
+        json_data = json.dumps(
+            edited,
+            indent=4,
+            ensure_ascii=False
+        )
+
 
         with open(
-            json_path,
+            "outputs/result.json",
             "w",
             encoding="utf-8"
         ) as f:
 
-            json.dump(
-                edited,
-                f,
-                indent=4,
-                ensure_ascii=False
-            )
+            f.write(json_data)
 
 
         st.download_button(
             "Download JSON",
-            data=json.dumps(
-                edited,
-                indent=4
-            ),
+            data=json_data,
             file_name="result.json",
             mime="application/json"
         )
 
 
-        # GENERATE CV TEMPLATE
+        # Generate Form 8 DOCX using working pipeline
 
-        docx_path = generate_docx(
-            edited
-        )
+        with st.spinner("Generating Form 8 CV..."):
 
+            file.seek(0)
 
-        with open(docx_path, "rb") as f:
-
-            st.download_button(
-                "Download Filled CV",
-                data=f,
-                file_name="generated_cv.docx",
-                mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            docx_path = create_cv(
+                file
             )
 
 
-        # DOCX PREVIEW
-
-        st.subheader(
-            "Generated CV Preview"
+        st.success(
+            "CV generated successfully"
         )
 
+
+        # Download DOCX
 
         with open(
             docx_path,
             "rb"
         ) as f:
 
-            encoded = base64.b64encode(
-                f.read()
-            ).decode()
-
-
-        st.markdown(
-            f"""
-            <iframe 
-            src="data:application/vnd.openxmlformats-officedocument.wordprocessingml.document;base64,{encoded}"
-            width="100%"
-            height="800">
-            </iframe>
-            """,
-            unsafe_allow_html=True
-        )
+            st.download_button(
+                "Download Filled CV",
+                data=f.read(),
+                file_name="generated_cv.docx",
+                mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            )

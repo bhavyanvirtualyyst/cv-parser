@@ -3,16 +3,10 @@ def map_to_form8(user_json):
 
     form8 = {}
 
-    # =========================
+    
     # BASIC DETAILS
-    # =========================
 
-    # form8["position_title_no"] = (
-    #     user_json.get("current_role")
-    #     or user_json.get("title")
-    #     or user_json.get("position")
-    #     or ""
-    # )
+
     experiences = user_json.get("experience", [])
 
     if experiences:
@@ -44,9 +38,9 @@ def map_to_form8(user_json):
         or "India"
     )
 
-    # =========================
+    
     # EDUCATION
-    # =========================
+     
 
     education_data = user_json.get("education", [])
 
@@ -117,9 +111,9 @@ def map_to_form8(user_json):
     else:
 
         form8["education"] = ""
-    # =========================
+ 
     # DETAILED TASKS
-    # =========================
+    
 
     tasks = (
         user_json.get("detailed_tasks")
@@ -139,9 +133,9 @@ def map_to_form8(user_json):
     else:
         form8["detailed_tasks"] = tasks
 
-    # =========================
+    
     # KEY QUALIFICATIONS
-    # =========================
+    
 
     skills = (
         user_json.get("skills")
@@ -159,9 +153,9 @@ def map_to_form8(user_json):
     else:
 
         form8["key_qualifications"] = skills
-    # =========================
+    
     # EXPERIENCE
-    # =========================
+    
 
     employment_records = []
 
@@ -262,9 +256,9 @@ def map_to_form8(user_json):
 
     form8["employment_record"] = employment_records
 
-    # =========================
+    
     # LANGUAGE SKILLS
-    # =========================
+    
 
     languages = user_json.get(
         "languages",
@@ -300,9 +294,9 @@ def map_to_form8(user_json):
         or "NA"
     )
 
-    # =========================
+    
     # SIGNING DETAILS
-    # =========================
+    
 
     form8["date_of_signing"] = datetime.today().strftime(
         "%d %B %Y"
