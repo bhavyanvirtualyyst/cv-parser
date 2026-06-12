@@ -1,7 +1,10 @@
 import streamlit as st
 from extractor import extract_pdf
 from ai_parser import parse_cv
-from test_full_template import create_cv
+# from test_full_template import create_cv
+
+from mapper.json_mapper import map_to_form8
+from generator.doc_generator import generate_cv
 
 import os
 import json
@@ -24,7 +27,7 @@ if file:
 
     with st.spinner("Extracting CV..."):
 
-        text = extract_pdf(file)
+        text, image_path = extract_pdf(file)
 
 
     st.subheader("Extracted Text")
@@ -49,14 +52,18 @@ if file:
         st.subheader("Extracted Fields")
 
 
-        edited = {}
+        # edited = {}
 
-        for key, value in data.items():
+        # for key, value in data.items():
 
-            edited[key] = st.text_input(
-                key,
-                str(value)
-            )
+        #     edited[key] = st.text_input(
+        #         key,
+        #         str(value)
+        #     )
+
+        # new
+        mapped_data = map_to_form8(data)
+        st.json(mapped_data)
 
 
         # Save JSON
@@ -68,7 +75,7 @@ if file:
 
 
         json_data = json.dumps(
-            edited,
+            mapped_data,            # edited from 'edited'
             indent=4,
             ensure_ascii=False
         )
@@ -95,10 +102,15 @@ if file:
 
         with st.spinner("Generating Form 8 CV..."):
 
-            file.seek(0)
+            # file.seek(0)
 
-            docx_path = create_cv(
-                file
+            # docx_path = create_cv(
+            #     file
+            # )
+
+            docx_path = generate_cv(
+                mapped_data,
+                image_path=image_path
             )
 
 

@@ -9,48 +9,6 @@ load_dotenv()
 client = Groq(api_key=os.getenv('GROK_API_KEY'))
 
 def parse_cv(text):
-#     prompt = f"""
-# Your job is to extract the CV's information
-# Return ONLY in JSON format
-
-# IMPORTANT:
-# RETURN ONLY VALID JSON
-# DO NOT WRITE EXPLANATIONS
-# DO NOT USE MARKDOWN
-# DO NOT WRAT WITH ``` JSON
-
-# Schema:
-
-# {{
-#     "name": "",
-#     "email": "",
-#     "phone": "",
-#     "education": [],
-#     "experience": [],
-#     "skills": []
-# }}
-
-# Fields:
-# name
-# email
-# phone
-# education
-# experience
-# skills
-
-# For every experience item extract:
-# - company
-# - role
-# - duration
-# - location
-# - project name if available
-# - client if available
-# - responsibilities as a list
-# - achievements
-
-# the CV is here: {text}
-# """
-
     prompt = f"""
 You are an expert CV parser.
 
@@ -181,6 +139,20 @@ remarks = "NA"
 For date_of_signing:
 Use today's date if not available in the CV.
 Format: DD Month YYYY
+
+In the activities and project sections:
+1. DO NOT summarize, shorten, merge, or rewrite project descriptions and responsibilities.
+2. Preserve every activity, responsibility, achievement, and bullet point from the original CV.
+3. Extract project features and activities exactly as mentioned in the CV.
+4. Only make these changes:
+   - Fix grammar mistakes
+   - Convert sentences into professional resume-style tone
+   - Maintain consistent tense
+5. Do not invent new information.
+6. Do not remove technical details, numbers, tools, technologies, locations, or project names. ALWAYS mention the keywords in the output.
+7. If the original CV contains multiple bullet points under a project or job, keep them as separate bullet points.
+8. The final output should contain the same level of detail as the source CV.
+
 
 CV TEXT:
 
