@@ -15,8 +15,8 @@ def extract_pdf(pdf_file):
 
     doc = fitz.open(pdf_path)
     for page in doc:
-        text += page.get_text()
+        cv_text += page.get_text()
     image_path = extract_profile_image(doc)
     doc.close()
 
-    return text, image_path
+    return cv_text, image_path
