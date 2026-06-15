@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background: #f5f7fb;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+
+header p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+main {
+    width: 90%;
+    max-width: 600px;
+}
+
+
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 
+        0 10px 25px rgba(0,0,0,0.08);
+}
+
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+
+input[type="file"] {
+    width: 100%;
+
+    padding: 15px;
+
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    margin-bottom: 20px;
+}
+
+
+button {
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: black;
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+#statusText {
+    color: #555;
+}
+
+
+#downloadButton {
+    display: block;
+
+    text-align: center;
+
+    padding: 15px;
+
+    background: black;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+}

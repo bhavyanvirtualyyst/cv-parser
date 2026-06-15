@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV Parser</title>
+</head>
+
+<body>
+    <header>
+        <h1>Virtualyyst CV Converter</h1>
+        <p>Convert resumes into Form 8 format using AI</p>
+    </header>
+    <main>
+        <section class="upload-section">
+            <h2>Upload CV</h2>
+            <input type="file"
+             id="cvFile"
+            accept=".pdf,.docx">
+            <button 
+                type="button"
+                id="convertButton"
+            >
+                Generate CV
+            </button>
+        </section>
+        <section class="progress-section">
+            <h2>Status</h2>
+            <p id="statusText">
+                Waiting for CV upload...
+            </p>
+        </section>
+        <section class="download-section">
+            <a 
+                id="downloadButton"
+                href="#"
+                hidden
+            >
+                Download Generated CV
+            </a>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
