@@ -1,7 +1,14 @@
-venv
-.env
-temp
-temp_uploaded.pdf
 
-# only for testing duration - (eg. 1y 6m)
-test_mapper.py 
+
+venv/
+.env
+
+__pycache__/
+*.pyc
+
+temp/
+data/outputs/
+
+.DS_Store
+
+~$*.docx
