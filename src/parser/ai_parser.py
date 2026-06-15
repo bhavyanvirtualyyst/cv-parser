@@ -8,14 +8,14 @@ load_dotenv()
 
 client = Groq(api_key=os.getenv('GROQ_API_KEY'))
 
-def load_prompt():
-    prompt_path = Path(__file__).resolve().parents[1] / "prompts" / "form8_prompt.md"
+def load_prompt(template_name):
+    prompt_path = Path(__file__).resolve().parents[1] / "prompts" / f"{template_name}_prompt.md"
     with open(prompt_path, "r", encoding="utf-8") as file:
         return file.read()
 
-def parse_cv(text):
-    prompt_template = load_prompt()
-    prompt = prompt_template.format(cv_text=text)
+def parse_cv(text, template_name, filename):
+    prompt_template = load_prompt(template_name)
+    prompt = prompt_template.format(cv_text=text, filename=filename)
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
         messages=[
@@ -34,7 +34,14 @@ def parse_cv(text):
         .strip()
     )
     try:
-        return json.loads(ai_response)
+        parsed_data = json.loads(ai_response)
+
+        print("\n========== AI JSON ==========")
+        print(json.dumps(parsed_data, indent=4))
+        print("=============================\n")
+
+        return parsed_data
+
     except json.JSONDecodeError:
         print("Invalid JSON returned:")
         print(ai_response)

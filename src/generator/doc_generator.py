@@ -1,16 +1,38 @@
 from docxtpl import DocxTemplate, InlineImage
 from docx.shared import Mm
 import os
+import html
+import copy
 from pathlib import Path
 
-def generate_cv(data, image_path=None):
+def escape_xml(data):
+    if isinstance(data, dict):
+        return {
+            key: escape_xml(value)
+            for key, value in data.items()
+        }
+
+    elif isinstance(data, list):
+        return [
+            escape_xml(item)
+            for item in data
+        ]
+
+    elif isinstance(data, str):
+        return html.escape(data)
+
+    return data
+
+def generate_cv(data, image_path=None, template_name='form8'):
+    data = copy.deepcopy(data)
     BASE_DIR = Path(__file__).resolve().parents[2]
-    template_path = BASE_DIR/"templates"/"form8_template.docx"
+    template_path = BASE_DIR/"templates"/f"{template_name}_template.docx"
     doc = DocxTemplate(template_path)
     if image_path and os.path.exists(image_path):
         data["PHOTO"] = InlineImage(doc, image_path, width=Mm(35), height=Mm(40))
     else:
         data["PHOTO"] = ""
+    data = escape_xml(data)
     doc.render(data)
 
     # fixed lightweight rendering issues (mobiles & tablets)
@@ -24,7 +46,7 @@ def generate_cv(data, image_path=None):
                     trPr.remove(child)
 
 
-    name = data.get('name', 'final_cv')
+    name = data.get('expert_name') or data.get('name') or 'final_cv'
     first_name = name.split()[0]
     output_path = BASE_DIR / "outputs" / f"{first_name}_CV.docx"
 

@@ -1,9 +1,9 @@
 import streamlit as st
 from src.parser.extractor import extract_pdf
 from src.parser.ai_parser import parse_cv
-# from test_full_template import create_cv
 
-from src.mapper.json_mapper import map_to_form8
+
+from src.mapper.mapper_loader import map_cv
 from src.generator.doc_generator import generate_cv
 
 import os
@@ -21,6 +21,13 @@ file = st.file_uploader(
     type=["pdf"],
     accept_multiple_files=False
 )
+template = st.selectbox(
+    "Select CV Template",
+    [
+        "form8",
+        "template2"
+    ]
+)
 
 if file:
 
@@ -33,77 +40,74 @@ if file:
         text,
         height=200
     )
-    if st.button("Convert"):
-        with st.spinner("Parsing CV..."):
-            data = parse_cv(text)
-        st.subheader("Extracted Fields")
-        mapped_data = map_to_form8(data)
-        st.json(mapped_data)
-        os.makedirs(
-            "outputs",
-            exist_ok=True
+
+if st.button("Convert"):
+
+    with st.spinner("Parsing CV..."):
+        data = parse_cv(text, template, file.name)
+
+    # st.subheader("Extracted Fields")
+
+    mapped_data = map_cv(
+        data,
+        template
+    )
+
+    # st.json(mapped_data)
+
+    os.makedirs(
+        "outputs",
+        exist_ok=True
+    )
+
+    json_data = json.dumps(
+        mapped_data,
+        indent=4,
+        ensure_ascii=False
+    )
+
+    with open(
+        "outputs/result.json",
+        "w",
+        encoding="utf-8"
+    ) as f:
+        f.write(json_data)
+
+    st.download_button(
+        "Download JSON",
+        data=json_data,
+        file_name="result.json",
+        mime="application/json",
+        key="json_download"
+    )
+
+    with st.spinner("Generating CV..."):
+        docx_path = generate_cv(
+            mapped_data,
+            image_path=image_path,
+            template_name=template
         )
 
-        json_data = json.dumps(
-            mapped_data,          
-            indent=4,
-            ensure_ascii=False
+    st.success(
+        "CV generated successfully"
+    )
+
+    with open(docx_path, "rb") as f:
+
+        cv_name = mapped_data.get(
+            "expert_name",
+            "generated"
         )
-        with open(
-            "outputs/result.json",
-            "w",
-            encoding="utf-8"
-        ) as f:
 
-            f.write(json_data)
-
+        cv_name = cv_name.replace(
+            " ",
+            "_"
+        )
 
         st.download_button(
-            "Download JSON",
-            data=json_data,
-            file_name="result.json",
-            mime="application/json"
+            "Download generated CV",
+            data=f.read(),
+            file_name=f"{cv_name}_cv.docx",
+            mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            key="cv_download"
         )
-
-
-        # Generate Form 8 DOCX using working pipeline
-
-        with st.spinner("Generating Form 8 CV..."):
-
-            # file.seek(0)
-
-            # docx_path = create_cv(
-            #     file
-            # )
-
-            docx_path = generate_cv(
-                mapped_data,
-                image_path=image_path
-            )
-
-
-        st.success(
-            "CV generated successfully"
-        )
-
-
-        # Download DOCX
-
-        with open(
-            docx_path,
-            "rb"
-        ) as f:
-
-                with open(
-                    docx_path,
-                    "rb"
-                ) as f:
-
-                        cv_name = mapped_data.get("expert_name", "generated")
-                        cv_name = cv_name.replace(" ", "_")
-                        st.download_button(
-                            "Download generated CV",
-                            data=f.read(),
-                            file_name=f"{cv_name}_cv.docx",
-                            mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-                        )
