@@ -1,10 +1,12 @@
 from src.mapper.form8_mapper import map_to_form8
 from src.mapper.template2_mapper import map_to_template2
+from src.mapper.hill_mapper import map_to_hill
 
 
 MAPPERS = {
     "form8": map_to_form8,
-    "template2": map_to_template2
+    "template2": map_to_template2,
+    "hill": map_to_hill 
 }
 
 

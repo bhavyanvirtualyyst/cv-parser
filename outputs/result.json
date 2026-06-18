@@ -1,203 +1,155 @@
 {
-    "PHOTO": "",
-    "position_title_no": "Quality Assurance Specialist (PMC, Supplier, Transport/Avionics Projects)",
-    "firm_name": "",
     "expert_name": "Kiran Bavimani",
+    "position_title_no": "",
     "date_of_birth": "",
-    "years_with_firm": "",
-    "citizenship_residence": "India",
-    "education": "Bachelor of Engineering, Electronics & Communication, Kuvempu University - Government, 1999 to 2003\nPGD in MBA IBM, International Business Management, 2012 to 2013",
-    "detailed_tasks": "• Built and directed Quality teams with a broad range of expertise in Electronics/Electrical, Critical Hardware/Software systems, and Civil/Mechanical (Steel structures, Welding etc).\n• Drove Organisational QHSE (Quality, Safety, Health & Environment) initiatives across Organisations, Consortiums, and Contractors.\n• Led over 150 IMS audits, ensuring comprehensive QSHE compliance among 35+ contractors.\n• Directed and implemented Corporate/Site QMS and standards specified by ISO 9000 and Contracts.\n• Applied hands-on experience with tools such as 5 Why analysis, Fishbone diagrams, Pareto analysis, PFMEA/FMEA, etc.\n• Managed Corporate IMS (Quality, Health, Safety, Environment), ISO Certification, Trainings, KPIs, Alert -Veto-Advise, Audits, and QC tools.\n• Oversaw Engineering QA, including Gate reviews (Design to FAI), System Safety, SDLC/Agile/Scrum, Design/Coding Standards, and System Testing.\n• Managed Supplier Quality, including Qualification, Action Closures, Monitoring Performance, and served as Lead Auditor for 100+ IMS Audits across 30 entities.\n• Handled Site QAQC from Planning till Handover, including PQP, Material approvals/WMS/ITPs, IR/RFI, Problem Solving, Site NCRs, Snaglist, and RCAs.\n• Supported Chief Quality role, managing Civil (+Mech) teams with experts and auditing 16+ Civil Contractors.",
-    "key_qualifications": "PMP, Lead Auditor – ISO 9001, CMQ/OE (In progress), Lead Auditor IRCA/ISO 9001 (8 Yrs.), PMP (10 Yrs.), SSGB, QMS Foundation, ISO 14K/45K Certifications (Pursuing), Bid/Project Quality Assurance, Supplier Qualification, IPCA Airbus (Audit), People Management, AI tools, MS office, Excel Automation, SAP, EDMS (Mezzoteam), Testing & CM tools (DOORS/PIVS), Corp. IMS (Quality, Health, Safety, Environment), ISO Certification, Trainings, KPIs, Alert -Veto-Advise, Audits, QC tools, Engineering QA (Gate reviews, Design to FAI, System Safety, SDLC/Agile/Scrum, Design/Coding Standards, System Testing), Supplier Quality (Qualification, Action Closures, Monitoring Performance, Lead Auditor for 100+ IMS Audits across 30 entities), Site QAQC (Planning till Handover - PQP, Material approvals/WMS/ITPs, IR/RFI, Problem Solving, Site NCRs, Snaglist, RCAs), Civil (+Mech) Quality Management, 5 Why analysis, Fishbone diagrams, Pareto analysis, PFMEA/FMEA, Proactive, Self-starter, Effective communicator, Mentor, Quality as a Culture (First Time Right, Zero defects)",
-    "employment_record": [
+    "nationality": "",
+    "civil_status": "",
+    "education": [
         {
-            "employment_period": "10`2024 till date",
-            "employment_duration": "1 Y 8 M",
-            "employing_organization": "",
-            "previous_position_held": "Quality Assurance Specialist (PMC, Supplier, Transport/Avionics Projects)",
-            "reference_name": "",
-            "reference_position": "",
-            "reference_tel": "",
-            "reference_email": "",
-            "title_of_position_held": "Quality Assurance Specialist (PMC, Supplier, Transport/Avionics Projects)",
-            "assignment_location": "",
-            "assignment_project_name": "",
-            "client": "",
-            "assignment_year": "10`2024 till date",
-            "main_project_features": "",
-            "activities_performed": [
-                "Performed QA activities including Corporate QMS, project reviews, document reviews, issue reviews, and audits (IMS, Supplier Qualification, Issue based).",
-                "Conducted QC activities such as ITP reviews, on-site inspections (FAT, China), and supplier procurement follow-up actions."
-            ]
+            "degree": "Bachelor of Engineering in Electronics & Communication",
+            "institution": "Kuvempu University - Government",
+            "year": "1999 to 2003",
+            "location": ""
         },
         {
-            "employment_period": "09’2019-09`2024",
-            "employment_duration": "",
-            "employing_organization": "AECOM",
-            "previous_position_held": "PMC – Senior Quality Assurance Expert (Systems)",
-            "reference_name": "",
-            "reference_position": "",
-            "reference_tel": "",
-            "reference_email": "",
-            "title_of_position_held": "PMC – Senior Quality Assurance Expert (Systems)",
-            "assignment_location": "Pune",
-            "assignment_project_name": "",
-            "client": "Maha-Metro Rail Corporation",
-            "assignment_year": "09’2019-09`2024",
-            "main_project_features": "QA Surveillance of Systems Works for Line 1 and Line2 (Viaduct, UG, Depots); Systems: Telecom/Power Supply/Traction/Telecom/MEP/L&E/TVS-ECS/PSD/Signalling/Rolling Stock/AFC/S&S etc.",
-            "activities_performed": [
-                "Managed 14+ Contractor Quality teams in a customer-facing PMC/GC role for Maha-Metro Rail Corporation, overseeing initialization, monitoring, and control.",
-                "Established, tailored, and maintained the internal QMS (Manual); approved Contractors' QMS, and mentored/trained teams.",
-                "Approved QA/QC plans (+MS/ITP/Checklists) and QA/QC resources based on expertise review.",
-                "Witnessed critical RFIs/FAT events for material, installation, and testing activities.",
-                "Implemented Site QA/QC plans through regular audits, site visits, reviews, RCAs, and related record management (KPIs/OBS/NCRs/Snag list).",
-                "Conducted Management reviews and Customer Site Visits, CMRS (System Safety) Visits, and followed up on actions to closure.",
-                "Reviewed the status of Contractors and Customer (QRM ppt); monitored KPIs, and ensured lessons learned were managed.",
-                "Supervised Lab activities, including contract issues, tracking testing performance, and invoices."
-            ]
-        },
-        {
-            "employment_period": "03’2018-08’2019",
-            "employment_duration": "",
-            "employing_organization": "EEPL, India",
-            "previous_position_held": "Founder Quality Director",
-            "reference_name": "",
-            "reference_position": "",
-            "reference_tel": "",
-            "reference_email": "",
-            "title_of_position_held": "Founder Quality Director",
-            "assignment_location": "India",
-            "assignment_project_name": "",
-            "client": "",
-            "assignment_year": "03’2018-08’2019",
-            "main_project_features": "Systems: ELV / Embedded Systems (IoT Hardware and Software) and Supplier Management",
-            "activities_performed": [
-                "Served as the Single Point of Contact (SPOC) for QA/QC activities from concept to implementation of IoT products.",
-                "Established and maintained the QMS, implementing a 'Culture of Quality' with a focus on Cost of Poor Quality (COPQ).",
-                "Managed suppliers, including qualification, audits, and performance monitoring."
-            ]
-        },
-        {
-            "employment_period": "01’2016-02’2018",
-            "employment_duration": "",
-            "employing_organization": "Thales Gulf",
-            "previous_position_held": "Global Quality Assurance Manager (Offshore-Onshore)",
-            "reference_name": "",
-            "reference_position": "",
-            "reference_tel": "",
-            "reference_email": "",
-            "title_of_position_held": "Global Quality Assurance Manager (Offshore-Onshore)",
-            "assignment_location": "Qatar, France, Italy, Portugal",
-            "assignment_project_name": "",
-            "client": "",
-            "assignment_year": "01’2016-02’2018",
-            "main_project_features": "Systems: ELV / Communication and Control Systems (CCS) – 15 Sub-Systems (Telecom/PIS/PAS/Radio/FPS/BIM etc)",
-            "activities_performed": [
-                "Tailored and implemented Corporate (Chorus)/Customer processes and trained Thales teams and sub-contractors on QMS.",
-                "Implemented Corporate QMS (+SHE), achieved ISO 9001:2015 certification, and tailored processes to customer requirements.",
-                "Managed QA/QC activities including PQP/WMS/ITP/MAR/RI/RFIs/Calibration/NCRs, execution, reporting, audits, supplier quality, and site quality QC teams (internal and sub-contractors) during material, installation, and T&C phases.",
-                "Coordinated Safety Assurance (Offshore team) and TIMS assessment/PIVS (Internal Audits).",
-                "Reported to Customer and Directors with QA advice, alerts, and veto for timely action and follow-up.",
-                "Reviewed bids, Statements of Work (SOW), proposals, gate reviews, design documents, materials, and I, T&C documents and records.",
-                "Managed subcontractors, including qualification, quality supervision, audits, reporting, and material inspections.",
-                "Managed Non-Conformances, CAPA, RCA, KPI Analysis; action tracking, risks, lessons learned, and CSAT actions."
-            ]
-        },
-        {
-            "employment_period": "07’2012-01’2016",
-            "employment_duration": "",
-            "employing_organization": "Thales India",
-            "previous_position_held": "Project Quality Assurance Manager (Onshore)",
-            "reference_name": "",
-            "reference_position": "",
-            "reference_tel": "",
-            "reference_email": "",
-            "title_of_position_held": "Project Quality Assurance Manager (Onshore)",
-            "assignment_location": "Bengaluru",
-            "assignment_project_name": "",
-            "client": "",
-            "assignment_year": "07’2012-01’2016",
-            "main_project_features": "Systems: ELV / Embedded Systems (Aircraft Hardware and Software) and Aircraft Material inspections (before assembling)",
-            "activities_performed": [
-                "Served as Supplier Auditor and PIVS (Internal Auditor) for Thales projects in India.",
-                "Implemented Corporate QMS (Chorus 2.0 CPO, tailoring, trainings, deployment etc.) and achieved ISO 9001 certification.",
-                "Developed planning documents including PQP, WMS/ITPs/Checklists for the project, including reviews and approvals of offset partner deliverables.",
-                "Conducted Engineering QA activities such as gate reviews, software sampling tests/build checks, CSAT, provided quality advice, and tracked actions.",
-                "Conducted material inspections of aircraft parts and followed up on actions to closure with the France team.",
-                "Managed delivery, including inspections (Hardware, Software), raised/tracked NCRs/OBS/Snag list, and issued alerts & veto.",
-                "Reviewed Management Reviews (MRs), process improvements, risk monitoring, lessons learned, KPIs, RCA, CSAT, and snag lists.",
-                "Reported QA/QC situational awareness, issued NCRs & Quality Advice with a focus on alerts and veto for timely action."
-            ]
-        },
-        {
-            "employment_period": "10’2008-06’2012",
-            "employment_duration": "",
-            "employing_organization": "Thales",
-            "previous_position_held": "Portfolio Quality Assurance Manager (Onshore)",
-            "reference_name": "",
-            "reference_position": "",
-            "reference_tel": "",
-            "reference_email": "",
-            "title_of_position_held": "Portfolio Quality Assurance Manager (Onshore)",
-            "assignment_location": "Chennai",
-            "assignment_project_name": "",
-            "client": "",
-            "assignment_year": "10’2008-06’2012",
-            "main_project_features": "Systems: ELV / Embedded Systems (Aircraft Hardware and Software) and Aircraft Material inspections (before assembling)",
-            "activities_performed": [
-                "Developed QAQC planning (PQP), WMS/SOPs, and inspections for entity projects and portfolios.",
-                "Key involvement in Stage Gate reviews (PDR/CDR/FAI etc.), equivalent to Design and FAT.",
-                "Served as QC auditor for the organization and product owner for web-based tools using Agile methodology.",
-                "Reported QA advice, KPIs, PMR-WB review of projects, critical alerts & veto, and lessons learned.",
-                "Managed PIVS (Internal Audits) and tracked/facilitated findings to closure of CAR/NCR/OBS with RCA and actions."
-            ]
-        },
-        {
-            "employment_period": "04’2007-10’2008",
-            "employment_duration": "",
-            "employing_organization": "Thales",
-            "previous_position_held": "Engineering Technical Lead (Offshore)",
-            "reference_name": "",
-            "reference_position": "",
-            "reference_tel": "",
-            "reference_email": "",
-            "title_of_position_held": "Engineering Technical Lead (Offshore)",
-            "assignment_location": "",
-            "assignment_project_name": "",
-            "client": "",
-            "assignment_year": "04’2007-10’2008",
-            "main_project_features": "Systems: Aircraft HMI Software – LLR(Requirements), Design, Coding and Testing",
-            "activities_performed": [
-                "Managed project initiation (France), planning, training (ADA language), execution, and monitoring control (client reporting).",
-                "Performed requirement analysis, reviews, LLRs, design (CDS: HMI-GUI), coding (OOTH/DO178B), debugging, and unit testing.",
-                "Conducted pre- and post-delivery activities, including CM audits, technical release audits (Software), RCA, KPI/Metrics, and analysis.",
-                "Served as a key member of the Innovation Council, Interview Panel, and Training Automation initiatives."
-            ]
-        },
-        {
-            "employment_period": "05’2004-03’2007",
-            "employment_duration": "",
-            "employing_organization": "Honeywell, ADA/DRDO",
-            "previous_position_held": "System Engineer",
-            "reference_name": "",
-            "reference_position": "",
-            "reference_tel": "",
-            "reference_email": "",
-            "title_of_position_held": "System Engineer",
-            "assignment_location": "",
-            "assignment_project_name": "",
-            "client": "ADA/DRDO/HAL, Honeywell",
-            "assignment_year": "05’2004-03’2007",
-            "main_project_features": "MMR-SDP System Testing, Signal simulator (H/W & S/W) using FPGAs, Blind Zone Analysis Software; A380 AESS Testing (ADIS, FDR and BITE) in compliance to DO178B in line with PSAC, SDP, IVVP etc.",
-            "activities_performed": [
-                "Performed System Engineering (Testing) for A380 Aircraft Surveillance System (IHAS-ADIS).",
-                "Performed System Engineering (Testing) for Radar SDP - Light Combat Aircraft (Tejas)."
-            ]
+            "degree": "PGD in MBA IBM (International Business Management)",
+            "institution": "",
+            "year": "2012 to 2013",
+            "location": ""
         }
     ],
-    "english_read": "Good",
-    "english_write": "Good",
-    "english_speak": "Good",
-    "english_remarks": "NA",
-    "date_of_signing": "18 June 2026"
+    "languages": [
+        {
+            "name": "English"
+        },
+        {
+            "name": "Hindi"
+        },
+        {
+            "name": "Kannada"
+        },
+        {
+            "name": "Telugu"
+        },
+        {
+            "name": "French (DELF A1)"
+        }
+    ],
+    "geographic_experience": "USA, France, Qatar, Italy, Portugal, China, India, Middle-East",
+    "key_qualifications": "PMP, Lead Auditor – ISO 9001, CMQ/OE, SSGB, QMS Foundation, ASQ – American Society for Quality, IAENG, ASCE",
+    "career_highlights": "22 Yrs. in Transportation (Metro Rail Systems) & Avionics Systems (Defence), 07+ Yrs. in Metro Rail projects, 13 Yrs. in Avionics projects, 2 Yrs. entrepreneurship and Independent (Freelance) roles, Built and directed Quality teams, International Experience with Cultural Diversities, Large Infra and Significant projects in various customer facing roles, Driven Organisational QHSE initiatives, Lead over 150 IMS audits, Directed & implemented Corporate/Site QMS and standards, Hands on experience with tools such as 5 Why analysis, Fishbone diagrams, Pareto analysis, PFMEA/FMEA, etc.",
+    "project_experience": [
+        {
+            "duration": "10`2024 till date",
+            "company_name": "",
+            "location": "",
+            "position_held": "Quality Assurance Specialist",
+            "description": "QA: Corporate QMS, Reviews (project, documents, Issues) and Audits (IMS, Supplier Qualification, Issue based). QC: ITP reviews, On Site Inspections (FAT, China), Supplier Procurement Follow-up Actions.",
+            "company_role": "Freelancer",
+            "value": "",
+            "responsibilities": [
+                "QA: Corporate QMS, Reviews (project, documents, Issues) and Audits (IMS, Supplier Qualification, Issue based)",
+                "QC: ITP reviews, On Site Inspections (FAT, China), Supplier Procurement Follow-up Actions"
+            ]
+        },
+        {
+            "duration": "09’2019-09`2024",
+            "company_name": "AECOM",
+            "location": "Pune",
+            "position_held": "Senior QA/QC Expert",
+            "description": "QA Surveillance of Systems Works for Line 1 and Line2 (Viaduct, UG, Depots)",
+            "company_role": "PMC",
+            "value": "",
+            "responsibilities": [
+                "Customer facing role with 14+ Contractor Quality teams to manage (Initialise, Monitoring & Control)",
+                "Systems: Telecom/Power Supply/Traction/Telecom/MEP/L&E/TVS-ECS/PSD/Signalling/Rolling Stock/AFC/S&S etc.",
+                "QMS: Established, Tailored & Maintain internal QMS(Manual); Approved Contractors` QMS, Mentor/Trained teams",
+                "Approved QA/QC plans(+MS/ITP/Checklists), QA/QC resources based on expertise review",
+                "Witnessed critical RFIs/FAT events of Material/Installation/Testing activities",
+                "Implemented Site QA/QC plans through regular Audits/Site Visits/Reviews/RCAs & related records (KPIs/OBS/NCRs/Snag list)"
+            ]
+        },
+        {
+            "duration": "03’2018-08’2019",
+            "company_name": "EEPL",
+            "location": "India",
+            "position_held": "Founder Quality Director",
+            "description": "Organisational Quality and Customer Excellence role, reporting to the Managing Director",
+            "company_role": "Startup Venture",
+            "value": "",
+            "responsibilities": [
+                "SPOC for QA/QC activities from Concept-Implementation of IoT products",
+                "Established and maintained the QMS implementing the “Culture of Quality” with focus on COPQ",
+                "Supplier Management (Qualification, Audits and performance monitoring)"
+            ]
+        },
+        {
+            "duration": "01’2016-02’2018",
+            "company_name": "Thales Gulf",
+            "location": "Qatar",
+            "position_held": "Global Quality Assurance Manager",
+            "description": "Onshore & Offshore QA Surveillance role, responsible for Engineering and Site Quality",
+            "company_role": "Thales Gulf",
+            "value": "",
+            "responsibilities": [
+                "QMS: Tailor & Implement Corporate (Chorus)/Customer processes and train the Thales teams and sub-contractors",
+                "Corporate QMS implementation (+SHE), ISO certification (9001:2015), Tailoring to Customer Process",
+                "QA/QC – PQP/WMS/ITP/MAR/RI/RFIs/Calibration/NCRs, Execution, Reporting, Audits, Supplier Quality, Site Quality QC teams (internal and Sub-contractors) during Material/Installation/T&C phases"
+            ]
+        },
+        {
+            "duration": "07’2012-01’2016",
+            "company_name": "Thales India",
+            "location": "Bengaluru",
+            "position_held": "Project Quality Assurance Manager",
+            "description": "Onshore QA/QC role, responsible for Engineering (Contractors) and Site Quality (HAL)",
+            "company_role": "Thales India",
+            "value": "",
+            "responsibilities": [
+                "QMS: Implemented Corporate QMS (Chorus 2.0 CPO, Tailoring, trainings, deployment etc.); ISO 9001 certification",
+                "Planning: PQP, WMS/ITPs/Checklists for project including reviews and approvals of offset partner deliverables",
+                "Engineering QA: Gate reviews, Software sampling tests/Build Checks, CSAT, Quality Advice, Track Actions"
+            ]
+        },
+        {
+            "duration": "10’2008-06’2012",
+            "company_name": "Thales",
+            "location": "Chennai",
+            "position_held": "Portfolio Quality Assurance Manager",
+            "description": "Onshore QA/QC role, responsible for Engineering Quality",
+            "company_role": "Thales",
+            "value": "",
+            "responsibilities": [
+                "QAQC Planning (PQP), WMS/SOPs, Inspections for the entity projects and Portfolios",
+                "Key involvement in Stage Gate reviews (PDR/CDR/FAI etc) (Equivalent to Design and FAT)",
+                "QC auditor for Organisation and Product owner for Web based tools using Agile"
+            ]
+        },
+        {
+            "duration": "04’2007-10’2008",
+            "company_name": "Thales",
+            "location": "",
+            "position_held": "Engineering Technical Lead",
+            "description": "Avionics Team Lead, responsible for HMI (for Pilot) Design and Development for A400M Aircraft",
+            "company_role": "Thales",
+            "value": "",
+            "responsibilities": [
+                "Project Initiation (France), planning, training (ADA language), execution, and monitoring control (client reporting)",
+                "Requirement analysis, reviews, LLRs, design (CDS: HMI-GUI), coding (OOTH/DO178B), debug and unit testing"
+            ]
+        },
+        {
+            "duration": "11’2003-03’2007",
+            "company_name": "Honeywell, ADA/DRDO",
+            "location": "",
+            "position_held": "System Engineer",
+            "description": "System Engineer (Testing) for A380 Aircraft Surveillance System (IHAS-ADIS)",
+            "company_role": "Honeywell, ADA/DRDO",
+            "value": "",
+            "responsibilities": [
+                "System Engineer (Testing) for A380 Aircraft Surveillance System (IHAS-ADIS)",
+                "System Engineer (Testing) for Radar SDP - Light Combat Aircraft (Tejas)"
+            ]
+        }
+    ]
 }

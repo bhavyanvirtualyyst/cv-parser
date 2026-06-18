@@ -1,5 +1,5 @@
 from groq import Groq
-from openai import OpenAI
+# from openai import OpenAI
 import json
 import os
 from dotenv import load_dotenv
@@ -7,7 +7,7 @@ from pathlib import Path
 
 load_dotenv()
 
-client = OpenAI(api_key=os.getenv('GROQ_API_KEY'))
+client = Groq(api_key=os.getenv('GROQ_API_KEY'))
 
 def load_prompt(template_name):
     prompt_path = Path(__file__).resolve().parents[1] / "prompts" / f"{template_name}_prompt.md"

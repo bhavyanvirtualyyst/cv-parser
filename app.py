@@ -25,7 +25,8 @@ template = st.selectbox(
     "Select CV Template",
     [
         "form8",
-        "template2"
+        "template2",
+        "hill"
     ]
 )
 
