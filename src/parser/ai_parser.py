@@ -1,4 +1,5 @@
 from groq import Groq
+from openai import OpenAI
 import json
 import os
 from dotenv import load_dotenv
@@ -6,7 +7,7 @@ from pathlib import Path
 
 load_dotenv()
 
-client = Groq(api_key=os.getenv('GROQ_API_KEY'))
+client = OpenAI(api_key=os.getenv('GROQ_API_KEY'))
 
 def load_prompt(template_name):
     prompt_path = Path(__file__).resolve().parents[1] / "prompts" / f"{template_name}_prompt.md"
@@ -24,7 +25,7 @@ def parse_cv(text, template_name, filename):
                 "content": prompt
             }
         ],
-        temperature=0
+        temperature=0       #change to 0 when using Groq
     )
     ai_response = response.choices[0].message.content
     ai_response = (
