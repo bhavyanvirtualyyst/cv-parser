@@ -46,3 +46,4 @@ def parse_cv(text, template_name, filename):
         print("Invalid JSON returned:")
         print(ai_response)
         return {}
+
