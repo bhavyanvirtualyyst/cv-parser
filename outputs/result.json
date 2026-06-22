@@ -1,21 +1,27 @@
 {
-    "expert_name": "Kiran Bavimani",
+    "expert_name": "VIPIN PRAKASH SINGH",
     "position_title_no": "",
-    "date_of_birth": "",
-    "nationality": "",
-    "civil_status": "",
+    "date_of_birth": "7th February 1970",
+    "nationality": "Indian",
+    "civil_status": "Married",
     "education": [
         {
-            "degree": "Bachelor of Engineering in Electronics & Communication",
-            "institution": "Kuvempu University - Government",
-            "year": "1999 to 2003",
-            "location": ""
+            "degree": "MBA (Project Management)",
+            "institution": "Shobhit University, Meerut, U P",
+            "year": "2015",
+            "location": "Meerut, U P"
         },
         {
-            "degree": "PGD in MBA IBM (International Business Management)",
-            "institution": "",
-            "year": "2012 to 2013",
-            "location": ""
+            "degree": "B.E. (INSTRUMENTATION & CONTROL)",
+            "institution": "Delhi Institute of Technology (University of Delhi), Now NSIT, Kashmere Gate, Delhi-110006",
+            "year": "1995",
+            "location": "Delhi-110006"
+        },
+        {
+            "degree": "Certificate course (Six months duration) in NGO management",
+            "institution": "IGNOU Delhi",
+            "year": "2010",
+            "location": "Delhi"
         }
     ],
     "languages": [
@@ -24,131 +30,124 @@
         },
         {
             "name": "Hindi"
-        },
-        {
-            "name": "Kannada"
-        },
-        {
-            "name": "Telugu"
-        },
-        {
-            "name": "French (DELF A1)"
         }
     ],
-    "geographic_experience": "USA, France, Qatar, Italy, Portugal, China, India, Middle-East",
-    "key_qualifications": "PMP, Lead Auditor – ISO 9001, CMQ/OE, SSGB, QMS Foundation, ASQ – American Society for Quality, IAENG, ASCE",
-    "career_highlights": "22 Yrs. in Transportation (Metro Rail Systems) & Avionics Systems (Defence), 07+ Yrs. in Metro Rail projects, 13 Yrs. in Avionics projects, 2 Yrs. entrepreneurship and Independent (Freelance) roles, Built and directed Quality teams, International Experience with Cultural Diversities, Large Infra and Significant projects in various customer facing roles, Driven Organisational QHSE initiatives, Lead over 150 IMS audits, Directed & implemented Corporate/Site QMS and standards, Hands on experience with tools such as 5 Why analysis, Fishbone diagrams, Pareto analysis, PFMEA/FMEA, etc.",
+    "geographic_experience": "India, Delhi, Ahmedabad, Surat, Hyderabad, Gurugram, Sonipat, Haryana, Andhra Pradesh, Vijaywada, Guntakal, Jaipur, Ghaziabad, Agra, New Delhi, Noida, Dwarka",
+    "key_qualifications": "MBA (Project Management), B.E. (INSTRUMENTATION & CONTROL), Certificate course (Six months duration) in NGO management, ISO 9001 certified, Induction Training on Safety, Health and Environment, CCNA Advance Networking, MS Project, Leadership, Project Management, Client Interfacing, Installation, Testing, Commissioning of Telecom systems, Team Management, Quality Control, Business Development, Strategic Partnership, Railway and Metro Sector experience, Telecom Systems, Project Planning, Execution, Control, Budgeting, Scheduling, Quality Assurance, Quality Control, Testing, Commissioning, Project Management, Team Leadership, Client Interfacing, Stakeholder Management, Contract Management, Tendering, Planning, Monitoring, Controlling, Installation, Testing, Commissioning, Telecom Systems, Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Tetra, CCTV, FOTS, Telephone System, ACS System, Cyber Security System, OAIT, Railway and Metro Sector experience, Project Management, Client Interfacing, Installation, Testing, Commissioning of Telecom systems, Team Management, Quality Control, Business Development, Strategic Partnership, Railway and Metro Sector experience, Telecom Systems, Project Planning, Execution, Control, Budgeting, Scheduling, Quality Assurance, Quality Control, Testing, Commissioning, Project Management, Team Leadership, Client Interfacing, Stakeholder Management, Contract Management, Tendering, Planning, Monitoring, Controlling, Installation, Testing, Commissioning, Telecom Systems, Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Tetra, CCTV, FOTS, Telephone System, ACS System, Cyber Security System, OAIT",
+    "career_highlights": "26+ years of experience in Railway and Metro Sector, Extensive experience in project management, client interfacing, installation, testing, commissioning of Telecom systems in Indian Railways, DMRC, JMRC and GMRCL, Leadership, Project Management, Client Interfacing, Installation, Testing, Commissioning of Telecom systems, Team Management, Quality Control, Business Development, Strategic Partnership, Railway and Metro Sector experience, Telecom Systems, Project Planning, Execution, Control, Budgeting, Scheduling, Quality Assurance, Quality Control, Testing, Commissioning, Project Management, Team Leadership, Client Interfacing, Stakeholder Management, Contract Management, Tendering, Planning, Monitoring, Controlling, Installation, Testing, Commissioning, Telecom Systems, Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Tetra, CCTV, FOTS, Telephone System, ACS System, Cyber Security System, OAIT, Railway and Metro Sector experience, Project Management, Client Interfacing, Installation, Testing, Commissioning of Telecom systems, Team Management, Quality Control, Business Development, Strategic Partnership, Railway and Metro Sector experience, Telecom Systems, Project Planning, Execution, Control, Budgeting, Scheduling, Quality Assurance, Quality Control, Testing, Commissioning, Project Management, Team Leadership, Client Interfacing, Stakeholder Management, Contract Management, Tendering, Planning, Monitoring, Controlling, Installation, Testing, Commissioning, Telecom Systems, Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Tetra, CCTV, FOTS, Telephone System, ACS System, Cyber Security System, OAIT, Completed successfully Projects in Railway Telecommunication works including Trenching, Cable Laying of Telecom/power/OFC cables, Erection of apparatus cases/junction boxes, Panel/Route Relay Interlocking (our RRI system with more than 50 routes is working successfully in Ghaziabad Railway Station for Yard), Installation of Point Machines, Data Loggers, Axel Counters(SSDAC & MSDAC), Level Crossing Gates and Train Protection & Warning System (Ansaldo STS) in Delhi-Agra section etc.",
     "project_experience": [
         {
-            "duration": "10`2024 till date",
-            "company_name": "",
-            "location": "",
-            "position_held": "Quality Assurance Specialist",
-            "description": "QA: Corporate QMS, Reviews (project, documents, Issues) and Audits (IMS, Supplier Qualification, Issue based). QC: ITP reviews, On Site Inspections (FAT, China), Supplier Procurement Follow-up Actions.",
-            "company_role": "Freelancer",
+            "duration": "May 2024 to Present",
+            "company_name": "Aarvee Engineering Consultants Ltd.",
+            "location": "Hyderabad, Telangana",
+            "position_held": "Chief Telecom System Engineer/ Chief Resident Engineer-Telecom",
+            "description": "Ahmedabad Phase-2 Metro Project, (Section C1, C2 & C3) 22 Nos of Elevated Stations. 1 Nos. of Depots.",
+            "company_role": "GEC to GMRCL",
             "value": "",
             "responsibilities": [
-                "QA: Corporate QMS, Reviews (project, documents, Issues) and Audits (IMS, Supplier Qualification, Issue based)",
-                "QC: ITP reviews, On Site Inspections (FAT, China), Supplier Procurement Follow-up Actions"
+                "Responsible of leading project as per contract and norms of tendering, planning, monitoring, testing and controlling the installation, Testing and commissioning activities of the telecom systems like Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Tetra (Radio), CCTV, FOTS, OAIT, Telephone System, Cyber Security System and ACS System etc.",
+                "Responsible for testing (IAT, PAT, SAT & ITC) of all telecom sub systems and reviewing design reports, drawings, technical approvals FAT, QA/QC Monitoring and documents of Telecom project.",
+                "Responsible for supervision of project, controlling and monitoring of project and contractor’s activities to ensure timely completion of Telecom project within allocated budget."
             ]
         },
         {
-            "duration": "09’2019-09`2024",
-            "company_name": "AECOM",
-            "location": "Pune",
-            "position_held": "Senior QA/QC Expert",
-            "description": "QA Surveillance of Systems Works for Line 1 and Line2 (Viaduct, UG, Depots)",
-            "company_role": "PMC",
+            "duration": "April 2022 to July 2023",
+            "company_name": "Egis India Consulting Engineer Pvt. Ltd",
+            "location": "Gurugram, Haryana",
+            "position_held": "Dy. Chief Telecom System Engineer/ Chief Resident Engineer-Telecom",
+            "description": "Surat Metro, Phase-I Project, (Corridor-1, 6 Nos. of UG Stations, Chowk bazar to Kapodhra and Elevated Stations-14 Nos. Corridor-2, Bheshan to Saroli, 18 Nos of Elevated Stations. 2 Nos. of Depots.",
+            "company_role": "GEC to GMRCL",
             "value": "",
             "responsibilities": [
-                "Customer facing role with 14+ Contractor Quality teams to manage (Initialise, Monitoring & Control)",
-                "Systems: Telecom/Power Supply/Traction/Telecom/MEP/L&E/TVS-ECS/PSD/Signalling/Rolling Stock/AFC/S&S etc.",
-                "QMS: Established, Tailored & Maintain internal QMS(Manual); Approved Contractors` QMS, Mentor/Trained teams",
-                "Approved QA/QC plans(+MS/ITP/Checklists), QA/QC resources based on expertise review",
-                "Witnessed critical RFIs/FAT events of Material/Installation/Testing activities",
-                "Implemented Site QA/QC plans through regular Audits/Site Visits/Reviews/RCAs & related records (KPIs/OBS/NCRs/Snag list)"
+                "Responsible of leading project as per contract and norms of tendering, planning, monitoring, testing and controlling the installation and commissioning activities of the telecom systems like Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Tetra, CCTV, FOTS, Telephone System and ACS System etc.",
+                "Responsible for testing (IAT, PAT, SAT & ITC) of all telecom sub systems and reviewing design reports, drawings, technical approvals FAT, QA/QC Monitoring and documents of Telecom project.",
+                "Responsible for supervision of project, controlling and monitoring of project and contractor’s activities to ensure timely completion of Telecom project within allocated budget."
             ]
         },
         {
-            "duration": "03’2018-08’2019",
-            "company_name": "EEPL",
-            "location": "India",
-            "position_held": "Founder Quality Director",
-            "description": "Organisational Quality and Customer Excellence role, reporting to the Managing Director",
-            "company_role": "Startup Venture",
+            "duration": "May 2021 to September 2021",
+            "company_name": "Rail Mechatronics Pvt. Ltd",
+            "location": "Sonipat, Haryana",
+            "position_held": "Project Head-TCAS 1",
+            "description": "Train Collision Avoidance System (TCAS) Telecom System.",
+            "company_role": "Client: South Central Railway (SCR)",
             "value": "",
             "responsibilities": [
-                "SPOC for QA/QC activities from Concept-Implementation of IoT products",
-                "Established and maintained the QMS implementing the “Culture of Quality” with focus on COPQ",
-                "Supplier Management (Qualification, Audits and performance monitoring)"
+                "Responsible for planning the entire work execution of Train Collision Avoidance System (TCAS) Telecom projects in Indian Railways.",
+                "To do the interfacing with Railway officials and clients/OEMs.",
+                "Responsible for controlling and monitoring of TCAS projects to ensure timely completion.",
+                "Execution work of Loco TCAS has been completed successfully in Mauli Ali Loco Shed, Hyderabad in Loco No. 13408, 13225, 13314, 13377, 13254 and 13395.",
+                "Execution work of Loco TCAS has been completed successfully in Diesel Loco Shed, Guntakal, Andhra Pradesh in Loco No. 11392 and 13236.",
+                "Execution work of Loco TCAS has been completed successfully in Electric Loco Shed, Vijaywada, Andhra Pradesh in Loco No 25032."
             ]
         },
         {
-            "duration": "01’2016-02’2018",
-            "company_name": "Thales Gulf",
-            "location": "Qatar",
-            "position_held": "Global Quality Assurance Manager",
-            "description": "Onshore & Offshore QA Surveillance role, responsible for Engineering and Site Quality",
-            "company_role": "Thales Gulf",
+            "duration": "December 2019 to May 2021",
+            "company_name": "S. S. Enterprises",
+            "location": "New Delhi",
+            "position_held": "Consultant-Telecom for Business Development",
+            "description": "",
+            "company_role": "",
             "value": "",
             "responsibilities": [
-                "QMS: Tailor & Implement Corporate (Chorus)/Customer processes and train the Thales teams and sub-contractors",
-                "Corporate QMS implementation (+SHE), ISO certification (9001:2015), Tailoring to Customer Process",
-                "QA/QC – PQP/WMS/ITP/MAR/RI/RFIs/Calibration/NCRs, Execution, Reporting, Audits, Supplier Quality, Site Quality QC teams (internal and Sub-contractors) during Material/Installation/T&C phases"
+                "Responsible for expand the business and innovate new technologies to implement in Telecom domain.",
+                "To do the interfacing with officials for getting new Telecom Projects in Metro and Railways.",
+                "Responsible for making strategic partnership with reputed organizations."
             ]
         },
         {
-            "duration": "07’2012-01’2016",
-            "company_name": "Thales India",
-            "location": "Bengaluru",
-            "position_held": "Project Quality Assurance Manager",
-            "description": "Onshore QA/QC role, responsible for Engineering (Contractors) and Site Quality (HAL)",
-            "company_role": "Thales India",
+            "duration": "July 2012 to December 2019",
+            "company_name": "Autometers Alliance Limited",
+            "location": "Noida",
+            "position_held": "Manager-Project (Metro-Telecom)",
+            "description": "DMRC/CS-15 Phase-III Projects, DMRC/CS-15 Extn. Phase-III Projects, JMRC JP/JS 14 (Phase-1B) project",
+            "company_role": "",
             "value": "",
             "responsibilities": [
-                "QMS: Implemented Corporate QMS (Chorus 2.0 CPO, Tailoring, trainings, deployment etc.); ISO 9001 certification",
-                "Planning: PQP, WMS/ITPs/Checklists for project including reviews and approvals of offset partner deliverables",
-                "Engineering QA: Gate reviews, Software sampling tests/Build Checks, CSAT, Quality Advice, Track Actions"
+                "Responsible for planning, monitoring and controlling the installation and commissioning activities of the telecom systems like Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Radio, CCTV, FOTS, Telephone System and S&T UPS System.",
+                "Responsible for monitoring and controlling the installation and commissioning teams including subcontractor’s teams.",
+                "Sending progress reports and site constraints to the Customer & Internal Top Management and raising issues with solutions to the customer.",
+                "Responsible for testing (PAT, SAT & ITC) and commissioning of Telecom systems along with DMRC/JMRC officials.",
+                "Responsible for interfacing with DMRC/JMRC officers and other system contractors like Detailed Design Consultants (Architect), Civil Contractors, E&M Contractors, Traction, ECS, SCADA contractors and Signalling contractors to solve site related issues."
             ]
         },
         {
-            "duration": "10’2008-06’2012",
-            "company_name": "Thales",
-            "location": "Chennai",
-            "position_held": "Portfolio Quality Assurance Manager",
-            "description": "Onshore QA/QC role, responsible for Engineering Quality",
-            "company_role": "Thales",
+            "duration": "January 2003 to July 2012",
+            "company_name": "Apkon Enterprises",
+            "location": "Dwarka, New Delhi",
+            "position_held": "Project Manager (Metro and Railway Telecom)",
+            "description": "Northern Railway S&T Projects, DMRC/ Telecom/Phase-II Projects",
+            "company_role": "",
             "value": "",
             "responsibilities": [
-                "QAQC Planning (PQP), WMS/SOPs, Inspections for the entity projects and Portfolios",
-                "Key involvement in Stage Gate reviews (PDR/CDR/FAI etc) (Equivalent to Design and FAT)",
-                "QC auditor for Organisation and Product owner for Web based tools using Agile"
+                "Responsible for planning, monitoring and controlling the installation and commissioning activities of the Telecom system (CCTV).",
+                "Responsible for planning, implementation, Monitoring and Controlling the Metro/Railway Telecom projects.",
+                "To do the liaison with Govt./ Railway technical officers and staff.",
+                "Completed successfully Projects in Railway Telecommunication works including Trenching, Cable Laying of Telecom/power/OFC cables, Erection of apparatus cases/junction boxes, Panel/Route Relay Interlocking (our RRI system with more than 50 routes is working successfully in Ghaziabad Railway Station for Yard), Installation of Point Machines, Data Loggers, Axel Counters(SSDAC & MSDAC), Level Crossing Gates and Train Protection & Warning System (Ansaldo STS) in Delhi-Agra section etc."
             ]
         },
         {
-            "duration": "04’2007-10’2008",
-            "company_name": "Thales",
-            "location": "",
-            "position_held": "Engineering Technical Lead",
-            "description": "Avionics Team Lead, responsible for HMI (for Pilot) Design and Development for A400M Aircraft",
-            "company_role": "Thales",
+            "duration": "February 2000 to September 2002",
+            "company_name": "NRB Enterprises",
+            "location": "Delhi-110051",
+            "position_held": "Site Engineer (Railway Telecom Project)",
+            "description": "",
+            "company_role": "",
             "value": "",
             "responsibilities": [
-                "Project Initiation (France), planning, training (ADA language), execution, and monitoring control (client reporting)",
-                "Requirement analysis, reviews, LLRs, design (CDS: HMI-GUI), coding (OOTH/DO178B), debug and unit testing"
+                "Responsible for Installation, commissioning & maintenance work of Railway Telecom equipment like Telephones-Exchange System etc."
             ]
         },
         {
-            "duration": "11’2003-03’2007",
-            "company_name": "Honeywell, ADA/DRDO",
-            "location": "",
-            "position_held": "System Engineer",
-            "description": "System Engineer (Testing) for A380 Aircraft Surveillance System (IHAS-ADIS)",
-            "company_role": "Honeywell, ADA/DRDO",
+            "duration": "November 1996 to December 1999",
+            "company_name": "M/S PAITECH INSTRUMENTS PVT. LTD",
+            "location": "Karol Bagh, New Delhi",
+            "position_held": "Sales & Service Engineer",
+            "description": "",
+            "company_role": "",
             "value": "",
             "responsibilities": [
-                "System Engineer (Testing) for A380 Aircraft Surveillance System (IHAS-ADIS)",
-                "System Engineer (Testing) for Radar SDP - Light Combat Aircraft (Tejas)"
+                "Responsible for sales and servicing of equipment like Data Retrieve Systems & Finger Print Matching System of Australian & U.K. companies."
             ]
         }
     ]
