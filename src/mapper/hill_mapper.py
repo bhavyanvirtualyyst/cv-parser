@@ -9,31 +9,19 @@ def map_to_hill(data):
     education = []
 
     for edu in data.get("education", []):
-        education.append(
-            {
-                "degree": edu.get(
-                    "degree",
-                    ""
-                ),
 
-                "institution": edu.get(
-                    "institution",
-                    ""
-                ),
-
-                "year": edu.get(
-                    "year",
-                    ""
-                ),
-
-                "location": edu.get(
-                    "location",
-                    ""
-                )
-            }
+        qualification = ", ".join(
+            filter(
+                None,
+                [
+                    edu.get("degree", ""),
+                    edu.get("institution", ""),
+                    edu.get("year", "")
+                ]
+            )
         )
 
-
+        education.append(qualification)
     # -----------------------
     # Languages formatting
     # -----------------------
@@ -65,6 +53,11 @@ def map_to_hill(data):
         project_experience.append(
             {
                 "duration": duration,
+
+                "project_name": project.get(
+                    "project_name",
+                    ""
+                ),
 
                 "company_name": project.get(
                     "company_name",
@@ -103,6 +96,25 @@ def map_to_hill(data):
             }
         )
 
+    # -----------------------
+    # Key Qualifications formatting
+    # -----------------------
+    key_qualifications = []
+
+    for item in data.get("key_qualifications", []):
+
+        qualification = ", ".join(
+            filter(
+                None,
+                [
+                    item.get("certification", ""),
+                    item.get("year", ""),
+                    item.get("institute", "")
+                ]
+            )
+        )
+
+        key_qualifications.append(qualification)
 
     # -----------------------
     # Final DOCX context
@@ -143,10 +155,7 @@ def map_to_hill(data):
             ""
         ),
 
-        "key_qualifications": data.get(
-            "key_qualifications",
-            []
-        ),
+        "key_qualifications": key_qualifications,
 
         "career_highlights": data.get(
             "career_highlights",

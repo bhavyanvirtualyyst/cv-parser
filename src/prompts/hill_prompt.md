@@ -38,13 +38,20 @@ Return exactly this schema:
 
     "geographic_experience": "",
 
-    "key_qualifications": "",
+    "key_qualifications": [
+        {{
+            "certification": "",
+            "year": "",
+            "institute": ""
+        }}
+    ],
 
     "career_highlights": "",
 
     "project_experience": [
         {{
             "duration": "",
+            "project_name": "",
             "company_name": "",
             "location": "",
             "position_held": "",
@@ -75,6 +82,8 @@ Extract every qualification separately.
 For every education entry:
 degree:
 Qualification name.
+For education, extract degree, institute, year, and location separately.
+The Hill template will display these together as a single qualification statement.
 
 institution:
 College, university or training institute.
@@ -93,15 +102,50 @@ geographic_experience:
 Extract countries, regions, cities or locations where the candidate has professional experience.
 
 key_qualifications:
-Extract:
+
+Extract ONLY:
 - Licenses
 - Registrations
-- Memberships
+- Professional memberships
 - Certifications
-- Major professional qualifications
-- Core skills and domain expertise
+- Professional courses
+- Training qualifications
 
-Return every item separately.
+For every item extract:
+
+certification:
+Name of certification, license, membership or qualification.
+
+year:
+Completion year or validity year if available.
+
+institute:
+Issuing organization, institute or authority if available.
+
+Rules:
+1. Do NOT include technical skills.
+2. Do NOT include software/tools.
+3. Do NOT include job responsibilities.
+4. Do NOT include domain experience.
+5. Do NOT include generic keywords.
+
+Examples:
+
+Correct:
+PMP Certification
+ISO 9001 Lead Auditor
+CCNA Advanced Networking
+ASQ Membership
+
+Wrong:
+Project Management
+Leadership
+AutoCAD
+Testing
+Commissioning
+Metro Rail Experience
+
+If year or institute is missing, keep "".
 
 career_highlights:
 Create a professional career summary.
@@ -116,7 +160,17 @@ Include:
 Do not remove important numbers, project values or domain keywords.
 
 Project Experience:
+project_name:
+Extract the actual project, assignment, contract, or engagement name.
 
+Examples:
+Surat Metro Rail Project
+Lodha Villa Royale
+Ahmedabad Phase 2 Metro Project
+
+Do NOT use company name as project name.
+
+If no project name exists keep "".
 Create one project_experience object for every company/project.
 
 duration:
