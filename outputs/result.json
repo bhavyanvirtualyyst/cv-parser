@@ -5,24 +5,9 @@
     "nationality": "Indian",
     "civil_status": "Married",
     "education": [
-        {
-            "degree": "MBA (Project Management)",
-            "institution": "Shobhit University, Meerut, U P",
-            "year": "2015",
-            "location": "Meerut, U P"
-        },
-        {
-            "degree": "B.E. (INSTRUMENTATION & CONTROL)",
-            "institution": "Delhi Institute of Technology (University of Delhi), Now NSIT, Kashmere Gate, Delhi-110006",
-            "year": "1995",
-            "location": "Delhi-110006"
-        },
-        {
-            "degree": "Certificate course (Six months duration) in NGO management",
-            "institution": "IGNOU Delhi",
-            "year": "2010",
-            "location": "Delhi"
-        }
+        "MBA (Project Management), Shobhit University, 2015",
+        "B.E. (INSTRUMENTATION & CONTROL), Delhi Institute of Technology (University of Delhi), 1995",
+        "Certificate course (Six months duration) in NGO management, IGNOU, 2010"
     ],
     "languages": [
         {
@@ -32,16 +17,21 @@
             "name": "Hindi"
         }
     ],
-    "geographic_experience": "India, Delhi, Ahmedabad, Surat, Hyderabad, Gurugram, Sonipat, Haryana, Andhra Pradesh, Vijaywada, Guntakal, Jaipur, Ghaziabad, Agra, New Delhi, Noida, Dwarka",
-    "key_qualifications": "MBA (Project Management), B.E. (INSTRUMENTATION & CONTROL), Certificate course (Six months duration) in NGO management, ISO 9001 certified, Induction Training on Safety, Health and Environment, CCNA Advance Networking, MS Project, Leadership, Project Management, Client Interfacing, Installation, Testing, Commissioning of Telecom systems, Team Management, Quality Control, Business Development, Strategic Partnership, Railway and Metro Sector experience, Telecom Systems, Project Planning, Execution, Control, Budgeting, Scheduling, Quality Assurance, Quality Control, Testing, Commissioning, Project Management, Team Leadership, Client Interfacing, Stakeholder Management, Contract Management, Tendering, Planning, Monitoring, Controlling, Installation, Testing, Commissioning, Telecom Systems, Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Tetra, CCTV, FOTS, Telephone System, ACS System, Cyber Security System, OAIT, Railway and Metro Sector experience, Project Management, Client Interfacing, Installation, Testing, Commissioning of Telecom systems, Team Management, Quality Control, Business Development, Strategic Partnership, Railway and Metro Sector experience, Telecom Systems, Project Planning, Execution, Control, Budgeting, Scheduling, Quality Assurance, Quality Control, Testing, Commissioning, Project Management, Team Leadership, Client Interfacing, Stakeholder Management, Contract Management, Tendering, Planning, Monitoring, Controlling, Installation, Testing, Commissioning, Telecom Systems, Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Tetra, CCTV, FOTS, Telephone System, ACS System, Cyber Security System, OAIT",
-    "career_highlights": "26+ years of experience in Railway and Metro Sector, Extensive experience in project management, client interfacing, installation, testing, commissioning of Telecom systems in Indian Railways, DMRC, JMRC and GMRCL, Leadership, Project Management, Client Interfacing, Installation, Testing, Commissioning of Telecom systems, Team Management, Quality Control, Business Development, Strategic Partnership, Railway and Metro Sector experience, Telecom Systems, Project Planning, Execution, Control, Budgeting, Scheduling, Quality Assurance, Quality Control, Testing, Commissioning, Project Management, Team Leadership, Client Interfacing, Stakeholder Management, Contract Management, Tendering, Planning, Monitoring, Controlling, Installation, Testing, Commissioning, Telecom Systems, Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Tetra, CCTV, FOTS, Telephone System, ACS System, Cyber Security System, OAIT, Railway and Metro Sector experience, Project Management, Client Interfacing, Installation, Testing, Commissioning of Telecom systems, Team Management, Quality Control, Business Development, Strategic Partnership, Railway and Metro Sector experience, Telecom Systems, Project Planning, Execution, Control, Budgeting, Scheduling, Quality Assurance, Quality Control, Testing, Commissioning, Project Management, Team Leadership, Client Interfacing, Stakeholder Management, Contract Management, Tendering, Planning, Monitoring, Controlling, Installation, Testing, Commissioning, Telecom Systems, Passenger Information Display System (PIDS), Public Address System (PAS), Master Clocks System, Tetra, CCTV, FOTS, Telephone System, ACS System, Cyber Security System, OAIT, Completed successfully Projects in Railway Telecommunication works including Trenching, Cable Laying of Telecom/power/OFC cables, Erection of apparatus cases/junction boxes, Panel/Route Relay Interlocking (our RRI system with more than 50 routes is working successfully in Ghaziabad Railway Station for Yard), Installation of Point Machines, Data Loggers, Axel Counters(SSDAC & MSDAC), Level Crossing Gates and Train Protection & Warning System (Ansaldo STS) in Delhi-Agra section etc.",
+    "geographic_experience": "India",
+    "key_qualifications": [
+        "CCNA Advance Networking, 2014, HCL Learning Ltd.",
+        "MS Project, 2013, Astro Wix Corporation",
+        "Induction Training on Safety, Health and Environment, 2014, Vexil BPS"
+    ],
+    "career_highlights": "26+ years of experience in Railway and Metro Sector and Extensive experience in project management, client interfacing, installation, testing, commissioning of Telecom systems in Indian Railways, DMRC, JMRC and GMRCL.",
     "project_experience": [
         {
             "duration": "May 2024 to Present",
+            "project_name": "Ahmedabad Phase-2 Metro Project",
             "company_name": "Aarvee Engineering Consultants Ltd.",
             "location": "Hyderabad, Telangana",
             "position_held": "Chief Telecom System Engineer/ Chief Resident Engineer-Telecom",
-            "description": "Ahmedabad Phase-2 Metro Project, (Section C1, C2 & C3) 22 Nos of Elevated Stations. 1 Nos. of Depots.",
+            "description": "Leading project as per contract and norms of tendering, planning, monitoring, testing and controlling the installation, Testing and commissioning activities of the telecom systems",
             "company_role": "GEC to GMRCL",
             "value": "",
             "responsibilities": [
@@ -52,10 +42,11 @@
         },
         {
             "duration": "April 2022 to July 2023",
+            "project_name": "Surat Metro",
             "company_name": "Egis India Consulting Engineer Pvt. Ltd",
             "location": "Gurugram, Haryana",
             "position_held": "Dy. Chief Telecom System Engineer/ Chief Resident Engineer-Telecom",
-            "description": "Surat Metro, Phase-I Project, (Corridor-1, 6 Nos. of UG Stations, Chowk bazar to Kapodhra and Elevated Stations-14 Nos. Corridor-2, Bheshan to Saroli, 18 Nos of Elevated Stations. 2 Nos. of Depots.",
+            "description": "Leading project as per contract and norms of tendering, planning, monitoring, testing and controlling the installation and commissioning activities of the telecom systems",
             "company_role": "GEC to GMRCL",
             "value": "",
             "responsibilities": [
@@ -66,11 +57,12 @@
         },
         {
             "duration": "May 2021 to September 2021",
+            "project_name": "Train Collision Avoidance System (TCAS) Telecom System",
             "company_name": "Rail Mechatronics Pvt. Ltd",
             "location": "Sonipat, Haryana",
-            "position_held": "Project Head-TCAS 1",
-            "description": "Train Collision Avoidance System (TCAS) Telecom System.",
-            "company_role": "Client: South Central Railway (SCR)",
+            "position_held": "Project Head-TCAS 1(Telecom Systems)",
+            "description": "Planning the entire work execution of Train Collision Avoidance System (TCAS) Telecom projects in Indian Railways",
+            "company_role": "",
             "value": "",
             "responsibilities": [
                 "Responsible for planning the entire work execution of Train Collision Avoidance System (TCAS) Telecom projects in Indian Railways.",
@@ -83,10 +75,11 @@
         },
         {
             "duration": "December 2019 to May 2021",
-            "company_name": "S. S. Enterprises",
+            "project_name": "",
+            "company_name": "S.S. Enterprises",
             "location": "New Delhi",
             "position_held": "Consultant-Telecom for Business Development",
-            "description": "",
+            "description": "Expand the business and innovate new technologies to implement in Telecom domain",
             "company_role": "",
             "value": "",
             "responsibilities": [
@@ -97,10 +90,11 @@
         },
         {
             "duration": "July 2012 to December 2019",
+            "project_name": "DMRC/CS-15 Phase-III Projects",
             "company_name": "Autometers Alliance Limited",
             "location": "Noida",
             "position_held": "Manager-Project (Metro-Telecom)",
-            "description": "DMRC/CS-15 Phase-III Projects, DMRC/CS-15 Extn. Phase-III Projects, JMRC JP/JS 14 (Phase-1B) project",
+            "description": "Planning, monitoring and controlling the installation and commissioning activities of the telecom systems",
             "company_role": "",
             "value": "",
             "responsibilities": [
@@ -113,42 +107,45 @@
         },
         {
             "duration": "January 2003 to July 2012",
+            "project_name": "DMRC/ Telecom/Phase-II Projects",
             "company_name": "Apkon Enterprises",
-            "location": "Dwarka, New Delhi",
+            "location": "New Delhi",
             "position_held": "Project Manager (Metro and Railway Telecom)",
-            "description": "Northern Railway S&T Projects, DMRC/ Telecom/Phase-II Projects",
+            "description": "Planning, implementation, Monitoring and Controlling the Metro/Railway Telecom projects",
             "company_role": "",
             "value": "",
             "responsibilities": [
-                "Responsible for planning, monitoring and controlling the installation and commissioning activities of the Telecom system (CCTV).",
                 "Responsible for planning, implementation, Monitoring and Controlling the Metro/Railway Telecom projects.",
                 "To do the liaison with Govt./ Railway technical officers and staff.",
-                "Completed successfully Projects in Railway Telecommunication works including Trenching, Cable Laying of Telecom/power/OFC cables, Erection of apparatus cases/junction boxes, Panel/Route Relay Interlocking (our RRI system with more than 50 routes is working successfully in Ghaziabad Railway Station for Yard), Installation of Point Machines, Data Loggers, Axel Counters(SSDAC & MSDAC), Level Crossing Gates and Train Protection & Warning System (Ansaldo STS) in Delhi-Agra section etc."
+                "Completed successfully Projects in Railway Telecommunication works including Trenching, Cable Laying of Telecom/power/ OFC cables, Erection of apparatus cases/junction boxes, Panel/Route Relay Interlocking (our RRI system with more than 50 routes is working successfully in Ghaziabad Railway Station for Yard), Installation of Point Machines, Data Loggers, Axel Counters(SSDAC & MSDAC), Level Crossing Gates and Train Protection & Warning System (Ansaldo STS) in Delhi-Agra section etc.",
+                "Responsible for supervising site Telecom project works and monitor sub- contractor’s teams.",
+                "To do the liaison with Indian Railway technical officers and staff."
             ]
         },
         {
             "duration": "February 2000 to September 2002",
+            "project_name": "Railway Telecom Project",
             "company_name": "NRB Enterprises",
-            "location": "Delhi-110051",
+            "location": "Delhi",
             "position_held": "Site Engineer (Railway Telecom Project)",
-            "description": "",
+            "description": "Installation, commissioning & maintenance work of Railway Telecom equipment",
             "company_role": "",
             "value": "",
             "responsibilities": [
-                "Responsible for Installation, commissioning & maintenance work of Railway Telecom equipment like Telephones-Exchange System etc."
+                "Responsible for Installation, commissioning & maintenance work of Railway Telecom equipment like Telephones-Exchange System etc.",
+                "Responsible for sales and servicing of equipment like Data Retrieve Systems & Finger Print Matching System of Australian & U.K. companies."
             ]
         },
         {
             "duration": "November 1996 to December 1999",
-            "company_name": "M/S PAITECH INSTRUMENTS PVT. LTD",
-            "location": "Karol Bagh, New Delhi",
+            "project_name": "",
+            "company_name": "M/S Paitech Instruments Pvt. Ltd.",
+            "location": "New Delhi",
             "position_held": "Sales & Service Engineer",
             "description": "",
             "company_role": "",
             "value": "",
-            "responsibilities": [
-                "Responsible for sales and servicing of equipment like Data Retrieve Systems & Finger Print Matching System of Australian & U.K. companies."
-            ]
+            "responsibilities": []
         }
     ]
 }
