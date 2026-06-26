@@ -13,6 +13,4 @@ data/outputs/
 
 
 # tests
-test_pipeline.py
-test_generator.py
-test_openai.py
+tests/

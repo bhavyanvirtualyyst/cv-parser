@@ -23,7 +23,9 @@ def escape_xml(data):
 
     return data
 
-def generate_cv(data, image_path=None, template_name='form8'):
+def generate_cv(data, image_path=None, template_name=None):
+    if template_name is None:
+        raise ValueError("Template name must be provided.")
     data = copy.deepcopy(data)
     BASE_DIR = Path(__file__).resolve().parents[2]
     template_path = BASE_DIR/"templates"/f"{template_name}_template.docx"
