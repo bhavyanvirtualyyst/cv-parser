@@ -6,6 +6,7 @@ from src.batch.batch_processor import run_batch
 def main():
     zip_file = Path("input/resume.zip")
 
+    #define the template
     template = "hill"
 
     if not zip_file.exists():
@@ -33,3 +34,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
