@@ -1,9 +1,10 @@
 import zipfile
 import shutil
 
+
 from pathlib import Path
 
-from .config import EXTRACTED_DIR
+from .config import EXTRACTED_DIR, SUPPORTED_FILES
 
 
 def extract_zip(zip_path):
@@ -17,7 +18,17 @@ def extract_zip(zip_path):
         
     pdfs = []
 
-    for pdf in EXTRACTED_DIR.rglob("*.pdf"):
-        pdfs.append(pdf)
+    for file in EXTRACTED_DIR.rglob("*"):
 
-    return sorted(pdfs)
+        if "__MACOSX" in file.parts:
+            continue
+
+        if file.name.startswith("._"):
+            continue
+
+        if file.suffix.lower() not in SUPPORTED_FILES:
+            continue
+
+        pdfs.append(file)
+
+    return sorted(pdfs) 

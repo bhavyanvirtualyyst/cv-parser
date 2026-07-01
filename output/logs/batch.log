@@ -1,0 +1,206 @@
+2026-07-01 09:47:49,986 INFO ============================================================
+2026-07-01 09:47:49,986 INFO Starting Batch Processing
+2026-07-01 09:47:49,986 INFO ZIP File: input/resume.zip
+2026-07-01 09:47:49,997 INFO Found 12 PDF(s)
+2026-07-01 09:47:49,997 INFO [1/12] Processing Site Engineer -LE -MdAnzarAlam 9.46.28ΓÇ»AM.pdf
+2026-07-01 09:47:49,997 INFO Processing Site Engineer -LE -MdAnzarAlam 9.46.28ΓÇ»AM.pdf
+2026-07-01 09:48:04,517 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 09:48:04,589 INFO Successfully generated CV for Site Engineer -LE -MdAnzarAlam 9.46.28ΓÇ»AM.pdf
+2026-07-01 09:48:04,589 INFO [2/12] Processing ._Site Engineer -LE -MdAnzarAlam 9.46.28ΓÇ»AM.pdf
+2026-07-01 09:48:04,589 INFO Processing ._Site Engineer -LE -MdAnzarAlam 9.46.28ΓÇ»AM.pdf
+2026-07-01 09:48:04,590 ERROR Failed processing ._Site Engineer -LE -MdAnzarAlam 9.46.28ΓÇ»AM.pdf
+2026-07-01 09:48:04,599 ERROR Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2992, in __init__
+    doc = mupdf.fz_open_document(filename)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/mupdf.py", line 48462, in fz_open_document
+    return _mupdf.fz_open_document(filename)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/batch/worker.py", line 17, in process_resume
+    output_file = run_pipeline(str(pdf_path), template)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/pipeline/pipeline.py", line 27, in run_pipeline
+    raw_text, image_path = extract_pdf(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/parser/extractor.py", line 16, in extract_pdf
+    doc = fitz.open(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2995, in __init__
+    raise FileDataError(f'Failed to open file {filename!r}.') from e
+pymupdf.FileDataError: Failed to open file '/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/output/extracted/__MACOSX/._Site Engineer -LE -MdAnzarAlam 9.46.28ΓÇ»AM.pdf'.
+
+2026-07-01 09:48:04,599 INFO [3/12] Processing ._kiran_test.pdf
+2026-07-01 09:48:04,599 INFO Processing ._kiran_test.pdf
+2026-07-01 09:48:04,600 ERROR Failed processing ._kiran_test.pdf
+2026-07-01 09:48:04,600 ERROR Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2992, in __init__
+    doc = mupdf.fz_open_document(filename)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/mupdf.py", line 48462, in fz_open_document
+    return _mupdf.fz_open_document(filename)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/batch/worker.py", line 17, in process_resume
+    output_file = run_pipeline(str(pdf_path), template)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/pipeline/pipeline.py", line 27, in run_pipeline
+    raw_text, image_path = extract_pdf(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/parser/extractor.py", line 16, in extract_pdf
+    doc = fitz.open(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2995, in __init__
+    raise FileDataError(f'Failed to open file {filename!r}.') from e
+pymupdf.FileDataError: Failed to open file '/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/output/extracted/__MACOSX/._kiran_test.pdf'.
+
+2026-07-01 09:48:04,600 INFO [4/12] Processing ._mahesh cv.pdf
+2026-07-01 09:48:04,600 INFO Processing ._mahesh cv.pdf
+2026-07-01 09:48:04,600 ERROR Failed processing ._mahesh cv.pdf
+2026-07-01 09:48:04,600 ERROR Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2992, in __init__
+    doc = mupdf.fz_open_document(filename)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/mupdf.py", line 48462, in fz_open_document
+    return _mupdf.fz_open_document(filename)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/batch/worker.py", line 17, in process_resume
+    output_file = run_pipeline(str(pdf_path), template)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/pipeline/pipeline.py", line 27, in run_pipeline
+    raw_text, image_path = extract_pdf(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/parser/extractor.py", line 16, in extract_pdf
+    doc = fitz.open(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2995, in __init__
+    raise FileDataError(f'Failed to open file {filename!r}.') from e
+pymupdf.FileDataError: Failed to open file '/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/output/extracted/__MACOSX/._mahesh cv.pdf'.
+
+2026-07-01 09:48:04,600 INFO [5/12] Processing ._manjit_cv.pdf
+2026-07-01 09:48:04,600 INFO Processing ._manjit_cv.pdf
+2026-07-01 09:48:04,601 ERROR Failed processing ._manjit_cv.pdf
+2026-07-01 09:48:04,601 ERROR Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2992, in __init__
+    doc = mupdf.fz_open_document(filename)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/mupdf.py", line 48462, in fz_open_document
+    return _mupdf.fz_open_document(filename)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/batch/worker.py", line 17, in process_resume
+    output_file = run_pipeline(str(pdf_path), template)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/pipeline/pipeline.py", line 27, in run_pipeline
+    raw_text, image_path = extract_pdf(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/parser/extractor.py", line 16, in extract_pdf
+    doc = fitz.open(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2995, in __init__
+    raise FileDataError(f'Failed to open file {filename!r}.') from e
+pymupdf.FileDataError: Failed to open file '/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/output/extracted/__MACOSX/._manjit_cv.pdf'.
+
+2026-07-01 09:48:04,601 INFO [6/12] Processing ._moin_cv.pdf
+2026-07-01 09:48:04,601 INFO Processing ._moin_cv.pdf
+2026-07-01 09:48:04,601 ERROR Failed processing ._moin_cv.pdf
+2026-07-01 09:48:04,602 ERROR Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2992, in __init__
+    doc = mupdf.fz_open_document(filename)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/mupdf.py", line 48462, in fz_open_document
+    return _mupdf.fz_open_document(filename)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/batch/worker.py", line 17, in process_resume
+    output_file = run_pipeline(str(pdf_path), template)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/pipeline/pipeline.py", line 27, in run_pipeline
+    raw_text, image_path = extract_pdf(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/parser/extractor.py", line 16, in extract_pdf
+    doc = fitz.open(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2995, in __init__
+    raise FileDataError(f'Failed to open file {filename!r}.') from e
+pymupdf.FileDataError: Failed to open file '/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/output/extracted/__MACOSX/._moin_cv.pdf'.
+
+2026-07-01 09:48:04,602 INFO [7/12] Processing ._vipin_test.pdf
+2026-07-01 09:48:04,602 INFO Processing ._vipin_test.pdf
+2026-07-01 09:48:04,602 ERROR Failed processing ._vipin_test.pdf
+2026-07-01 09:48:04,602 ERROR Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2992, in __init__
+    doc = mupdf.fz_open_document(filename)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/mupdf.py", line 48462, in fz_open_document
+    return _mupdf.fz_open_document(filename)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/batch/worker.py", line 17, in process_resume
+    output_file = run_pipeline(str(pdf_path), template)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/pipeline/pipeline.py", line 27, in run_pipeline
+    raw_text, image_path = extract_pdf(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/src/parser/extractor.py", line 16, in extract_pdf
+    doc = fitz.open(pdf_path)
+  File "/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2995, in __init__
+    raise FileDataError(f'Failed to open file {filename!r}.') from e
+pymupdf.FileDataError: Failed to open file '/Users/daiyabhavyan/Desktop/Virtualyyst Internship/CV_parser/output/extracted/__MACOSX/._vipin_test.pdf'.
+
+2026-07-01 09:48:04,602 INFO [8/12] Processing kiran_test.pdf
+2026-07-01 09:48:04,602 INFO Processing kiran_test.pdf
+2026-07-01 09:48:34,314 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 09:48:34,509 INFO Successfully generated CV for kiran_test.pdf
+2026-07-01 09:48:34,509 INFO [9/12] Processing mahesh cv.pdf
+2026-07-01 09:48:34,509 INFO Processing mahesh cv.pdf
+2026-07-01 09:48:55,539 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 09:48:55,615 INFO Successfully generated CV for mahesh cv.pdf
+2026-07-01 09:48:55,615 INFO [10/12] Processing manjit_cv.pdf
+2026-07-01 09:48:55,615 INFO Processing manjit_cv.pdf
+2026-07-01 09:49:12,815 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 09:49:12,882 INFO Successfully generated CV for manjit_cv.pdf
+2026-07-01 09:49:12,882 INFO [11/12] Processing moin_cv.pdf
+2026-07-01 09:49:12,882 INFO Processing moin_cv.pdf
+2026-07-01 09:49:30,869 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 09:49:30,945 INFO Successfully generated CV for moin_cv.pdf
+2026-07-01 09:49:30,945 INFO [12/12] Processing vipin_test.pdf
+2026-07-01 09:49:30,945 INFO Processing vipin_test.pdf
+2026-07-01 09:49:52,241 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 09:49:52,306 INFO Successfully generated CV for vipin_test.pdf
+2026-07-01 09:49:52,306 INFO Batch Processing Completed
+2026-07-01 09:49:52,306 INFO Success : 6
+2026-07-01 09:49:52,306 INFO Failed  : 6
+2026-07-01 09:57:19,516 INFO ============================================================
+2026-07-01 09:57:19,516 INFO Starting Batch Processing
+2026-07-01 09:57:19,516 INFO ZIP File: input/resume.zip
+2026-07-01 09:58:34,123 INFO ============================================================
+2026-07-01 09:58:34,123 INFO Starting Batch Processing
+2026-07-01 09:58:34,123 INFO ZIP File: input/resume.zip
+2026-07-01 09:59:25,376 INFO ============================================================
+2026-07-01 09:59:25,376 INFO Starting Batch Processing
+2026-07-01 09:59:25,376 INFO ZIP File: input/resume.zip
+2026-07-01 09:59:25,383 INFO Found 6 PDF(s)
+2026-07-01 09:59:25,383 INFO [1/6] Processing Site Engineer -LE -MdAnzarAlam 9.46.28ΓÇ»AM.pdf
+2026-07-01 09:59:25,383 INFO Processing Site Engineer -LE -MdAnzarAlam 9.46.28ΓÇ»AM.pdf
+2026-07-01 09:59:36,834 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 09:59:36,923 INFO Successfully generated CV for Site Engineer -LE -MdAnzarAlam 9.46.28ΓÇ»AM.pdf
+2026-07-01 09:59:36,923 INFO [2/6] Processing kiran_test.pdf
+2026-07-01 09:59:36,923 INFO Processing kiran_test.pdf
+2026-07-01 10:00:01,162 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 10:00:01,235 INFO Successfully generated CV for kiran_test.pdf
+2026-07-01 10:00:01,235 INFO [3/6] Processing mahesh cv.pdf
+2026-07-01 10:00:01,235 INFO Processing mahesh cv.pdf
+2026-07-01 10:00:22,612 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 10:00:22,705 INFO Successfully generated CV for mahesh cv.pdf
+2026-07-01 10:00:22,705 INFO [4/6] Processing manjit_cv.pdf
+2026-07-01 10:00:22,705 INFO Processing manjit_cv.pdf
+2026-07-01 10:00:40,044 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 10:00:40,117 INFO Successfully generated CV for manjit_cv.pdf
+2026-07-01 10:00:40,117 INFO [5/6] Processing moin_cv.pdf
+2026-07-01 10:00:40,117 INFO Processing moin_cv.pdf
+2026-07-01 10:00:56,595 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 10:00:56,664 INFO Successfully generated CV for moin_cv.pdf
+2026-07-01 10:00:56,664 INFO [6/6] Processing vipin_test.pdf
+2026-07-01 10:00:56,664 INFO Processing vipin_test.pdf
+2026-07-01 10:01:30,575 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-01 10:01:30,754 INFO Successfully generated CV for vipin_test.pdf
+2026-07-01 10:01:30,754 INFO Batch Processing Completed
+2026-07-01 10:01:30,754 INFO Success : 6
+2026-07-01 10:01:30,754 INFO Failed  : 0
